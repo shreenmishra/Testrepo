@@ -1,0 +1,22 @@
+Create a folder 
+go inside the folder -> right click and open git bash
+ 
+1) git init  #start the git 
+ 
+2) git status
+ 
+3) touch file1 file2 file3 file4    #creating the blank files with name file1 file2 file3 file4
+ 
+4) git status                       #you will see that file1 file2 file3 and file4 are not staged yet 
+ 
+5) git add .                        #put all the files from working directory to staging area  ....for single file use git add filename
+ 
+6) git status                       # you will see that files are staged and askign to commit it  (which means you need to put it to the local repo)
+ 
+7) git config --global user.name"akshat"     #will set the global configuration configuration of git with name akshat. you need to use your name 
+ 
+8) git config --global user.email"akshat@apicletech.com"  #will set global email of git as akshat@apicletech.com. you need to use yuor mail id #onetine process
+ 
+9) git config --list   #to check if your name and email is configured properly or not   #onetime process
+ 
+10) git commit -m"my first commit "  #put the files from staging area to local repo
